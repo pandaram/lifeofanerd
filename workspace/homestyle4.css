@@ -1,0 +1,166 @@
+body {
+    
+    font-family: monospace, cursive, helvetica;
+    background-color: turquoise;
+    font-size: 15px;
+    line-height: 2;
+    text-align: center;
+    
+}
+
+.container {
+    
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    
+
+    
+}
+
+.container h1 {
+    
+    margin: auto;
+    padding: 30px;
+    border: 25px double white;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    float: center;
+    margin-top: 50px;
+    
+}
+
+
+
+header {
+    
+    background: white;
+    border-bottom: black 5px solid;
+    border-top: black 5px solid;
+    min-height: 120px;
+
+}
+
+
+
+nav {
+    
+    margin-top: 50px;
+    text-transform: uppercase;
+
+}
+
+
+
+header li {
+    
+    display: inline;
+    margin: 10px;
+    font-size: 15px;
+
+}
+
+header a {
+    
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+#showcase {
+    
+    background: url(homebackground.jpg) no-repeat;
+    background-size: cover;
+    color: black;
+    max-width: 100%;
+    height: auto;
+}
+
+#showcase h1 {
+    
+    width: 40%;
+    margin-top: 80px;
+    font-size: 3vw;
+    
+    
+}
+
+#showcase p {
+    
+    width: 40%;
+    margin: auto;
+    padding: 40px;
+}
+
+footer li {
+    
+    display: inline;
+    
+}
+
+footer a {
+    
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    
+    background-color: white;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+    font-family: serif;
+    text-align: center;
+}
+
+h3 {
+    
+    font-family: serif;
+    
+}
+
+
+
+li .highlight {
+    
+    color: turquoise;
+    font-weight: bold;
+    
+}
+
+header a:hover{
+    
+    font-weight: bold;
+    color: black;
+    
+}
+
+footer a:hover {
+    
+    font-weight: bold;
+    color: blue;
+    
+}
+
+
+
+
+@media(max-width: 770px) {
+    
+    header h1, nav  {
+        float: none;
+    }
+    
+    
+}
+
+header ul {
+    
+    margin: 0px;
+    padding: 0px;
+    
+}
+
