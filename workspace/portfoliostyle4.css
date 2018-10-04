@@ -96,6 +96,17 @@ header a {
     
 }
 
+#math_about {
+    
+    width: 40%;
+    margin: 30px;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px;
+    float: left;
+    
+    
+}
 
 #showcase img {
     
