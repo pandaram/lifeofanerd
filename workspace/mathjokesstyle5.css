@@ -75,7 +75,7 @@ header a {
 #showcase {
     
     background: url(mathjokebackground.jpg) no-repeat;
-    background-size: cover;
+    background-size: auto;
     color: black;
     max-width: 100%;
     height: auto;
