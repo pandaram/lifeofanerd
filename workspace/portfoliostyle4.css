@@ -84,17 +84,6 @@ header a {
 
 
 
-#showcase p {
-    
-    width: 40%;
-    margin: 30px;
-    color: black;
-    background-color: aliceblue;
-    padding: 10px;
-    float: right;
-    
-    
-}
 
 #math_about {
     
@@ -103,19 +92,11 @@ header a {
     color: black;
     background-color: aliceblue;
     padding: 10px;
-    float: left;
+    
     
     
 }
 
-#showcase img {
-    
-    width: 20%;
-    padding: 10px;
-    margin: auto;
-    float: left;
-    
-}
 
 footer li {
     
