@@ -18,6 +18,26 @@ body {
     
 }
 
+.container p {
+    
+    width: 60%;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+.container iframe {
+    
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
 .container h1 {
     
     margin: auto;
@@ -83,19 +103,6 @@ header a {
 }
 
 
-
-
-#math_about {
-    
-    width: 60%;
-    margin: 30px;
-    color: black;
-    background-color: aliceblue;
-    padding: 10px;
-    
-    
-    
-}
 
 
 footer li {
