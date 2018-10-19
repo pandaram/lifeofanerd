@@ -81,9 +81,9 @@ header a {
 
 #showcase h1 {
     
-    width: 40%;
+    width: 30%;
     margin-top: 80px;
-    font-size: 3vw;
+    font-size: 35px;
     
     
 }
@@ -93,6 +93,7 @@ header a {
     width: 40%;
     margin: auto;
     padding: 40px;
+    font-size: 15px;
 }
 
 footer li {
