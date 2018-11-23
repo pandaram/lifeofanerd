@@ -1,7 +1,7 @@
 body {
     
     font-family: monospace, cursive, helvetica;
-    background-color: black;
+    background-color: turquoise;
     font-size: 15px;
     line-height: 2;
     text-align: center;
@@ -10,11 +10,10 @@ body {
 
 .container {
     
-    width: 90%;
+    width: 70%;
     margin: auto;
     overflow: hidden;
-    position: relative;
-    
+   
 
     
 }
@@ -22,39 +21,48 @@ body {
 .container h1 {
     
     margin: auto;
-    padding: 20px;
+    padding: 30px;
+    border: 5px solid black;
+    opacity: 0.5;
     text-align: center;
-    font-size: 50px;
-    color: white;
-    float: center;
+    font-size: 20px;
+    color: black;
+    filter: alpha(opacity=50);
+    background-color: #ffffff;
     margin-top: 50px;
-    font-size: 3vw;
-    
     
 }
 
 
 
-header {
+.header {
     
-    background: beige;
-    border-bottom: white 5px solid;
-    border-top: white 5px solid;
+    background: white;
+    border-bottom: black 5px solid;
+    border-top: black 5px solid;
     min-height: 120px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+    
+    
     
 }
 
-
+header h1 {
+    
+    margin-top: 50px;
+    
+}
 
 nav {
     
     margin-top: 50px;
     text-transform: uppercase;
-    
 
 }
-
-
 
 header li {
     
@@ -74,38 +82,41 @@ header a {
 
 #showcase {
     
-    background: url(mathjokebackground.jpg) no-repeat;
-    background-size: auto;
+    background: url(aboutme.jpg) no-repeat ;
+    background-size: cover;
     color: black;
     max-width: 100%;
     height: auto;
+    margin-top: 100px;
 }
 
-
-
+#showcase h1 {
+    
+    width: 40%;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px grey;
+    
+    
+}
 
 #showcase p {
     
-    width: 50%;
+    width: auto;
     margin: auto;
-    padding: 15px;
-    color: black;
-    font-size: 20px;
-    opacity: 0.8;
-    filter: alpha(opacity=50);
-    background-color: #ffffff;
+    color: white;
+    font-family: monospace ;
+    font-size: 14px;
+    padding: 40px;
     
 }
 
 
 #showcase img {
     
-    width: 20%;
+    border: 3px solid darkturquoise;
+    padding: 5px;
     margin: 8px;
-    padding: 10px;
-    
-    float: none;
-    
+
 }
 
 
@@ -125,9 +136,9 @@ footer a {
 
 footer {
     
-    background-color: beige;
-    border-top: white 5px solid;
-    border-bottom: white 5px solid;
+    background-color: white;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
     font-family: serif;
     text-align: center;
 }
@@ -161,14 +172,6 @@ footer a:hover {
     
 }
 
-
-
-.main  li{
-    
-    list-style: none;
-    color: white;
-    text-decoration: none;
-}
 
 
 

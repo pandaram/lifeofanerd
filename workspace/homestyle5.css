@@ -34,13 +34,19 @@ body {
 
 
 
-header {
+.header {
     
     background: white;
     border-bottom: black 5px solid;
     border-top: black 5px solid;
     min-height: 120px;
-
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+    
+    
 }
 
 
@@ -77,6 +83,7 @@ header a {
     color: black;
     max-width: 100%;
     height: auto;
+    margin-top: 100px;
 }
 
 #showcase h1 {
